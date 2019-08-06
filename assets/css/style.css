@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/dolls.jpg");
+}
+
+.container {
+    background: #F4C7B0;
+    margin: 100px 100px;
+    font-family: 'Fjalla One', 'Quicksand', sans-serif;
+    color: #393D3F;
+    border: 5px solid #A85751;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+   
+    font-size: 40px;
+}
+
+button {
+    padding: 30px 50px;
+    border: 2px solid #A85751;
+    border-radius: 5px;
+    background: #393D3F;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Fjalla One', 'Quicksand', sans-serif;
+}
