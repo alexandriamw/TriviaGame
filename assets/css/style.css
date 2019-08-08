@@ -25,6 +25,7 @@ button {
     color: #ffffff;
     font-size: 20px;
     font-family: 'Fjalla One', 'Quicksand', sans-serif;
+    cursor: pointer;
 }
 
 #intro {
@@ -51,4 +52,13 @@ fieldset {
 
 .how {
     font-size: 30px;
+}
+
+.submit {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.clown {
+    width: 33%;
 }
