@@ -9,7 +9,7 @@ body {
     color: #393D3F;
     border: 5px solid #A85751;
     border-radius: 5px;
-    text-align: center;
+    
     padding-bottom: 50px;
 }
 
@@ -26,4 +26,13 @@ button {
     color: #ffffff;
     font-size: 20px;
     font-family: 'Fjalla One', 'Quicksand', sans-serif;
+}
+
+#intro {
+    text-align: center;
+}
+
+#questions,
+#results {
+    display: none;
 }

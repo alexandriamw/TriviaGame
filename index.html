@@ -1,21 +1,194 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>It's Trivia Time!</title>
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Quicksand&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>It's Trivia Time!</h1>
-        <h3>What are you afraid of...?</h3>
-        <button>Start</button>
+        <div id="intro">
+            <h1>It's Trivia Time!</h1>
+            <h3>What are you afraid of...?</h3>
+            <button id="startTrivia">Start</button>
+        </div>
 
+        <form id="questions">
+            <p>Time Remaining: <span id="timer">30</span></p>
+            <!--Question 1-->
+            <fieldset class="question">
+                <p>Dendrophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q1" value="a">
+                    <label>beards</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" value="b">
+                    <label>trees</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" value="c">
+                    <label>cooking</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" value="d">
+                    <label>germs</label>
+                </div>
+            </fieldset>
+            <!--Question 2-->
+            <fieldset class="question">
+                <p>Porphyrophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q2" value="a">
+                    <label>birds</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" value="b">
+                    <label>hospitals</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" value="c">
+                    <label>the color purple</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" value="d">
+                    <label>reptiles</label>
+                </div>
+            </fieldset>
+            <!--Question 3-->
+            <fieldset class="question">
+                <p>Gamophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q3" value="a">
+                    <label>marriage</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" value="b">
+                    <label>gambling</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" value="c">
+                    <label>clocks</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" value="d">
+                    <label>books</label>
+                </div>
+            </fieldset>
+            <!--Question 4-->
+            <fieldset class="question">
+                <p>Barophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q4" value="a">
+                    <label>dentists</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" value="b">
+                    <label>blood</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" value="c">
+                    <label>the color black</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" value="d">
+                    <label>gravity</label>
+                </div>
+            </fieldset>
+            <!--Question 5-->
+            <fieldset class="question">
+                <p>Noctiphobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q5" value="a">
+                    <label>snow</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" value="b">
+                    <label>rain</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" value="c">
+                    <label>the night</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" value="d">
+                    <label>sleep</label>
+                </div>
+            </fieldset>
+            <!--Question 6-->
+            <fieldset class="question">
+                <p>Ombrophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q6" value="a">
+                    <label>feet</label>
+                </div>
+                <div>
+                    <input type="radio" name="q6" value="b">
+                    <label>rain</label>
+                </div>
+                <div>
+                    <input type="radio" name="q6" value="c">
+                    <label>school</label>
+                </div>
+                <div>
+                    <input type="radio" name="q6" value="d">
+                    <label>color</label>
+                </div>
+            </fieldset>
+            <!--Question 7-->
+            <fieldset class="question">
+                <p>Entomophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q7" value="a">
+                    <label>insects</label>
+                </div>
+                <div>
+                    <input type="radio" name="q7" value="b">
+                    <label>colors</label>
+                </div>
+                <div>
+                    <input type="radio" name="q7" value="c">
+                    <label>snow</label>
+                </div>
+                <div>
+                    <input type="radio" name="q7" value="d">
+                    <label>mirrors</label>
+                </div>
+            </fieldset>
+            <!--Question 8-->
+            <fieldset class="question">
+                <p>Coulrophobia is the fear of what?</p>
+                <div>
+                    <input type="radio" name="q8" value="a">
+                    <label>colors</label>
+                </div>
+                <div>
+                    <input type="radio" name="q8" value="b">
+                    <label>clowns</label>
+                </div>
+                <div>
+                    <input type="radio" name="q8" value="c">
+                    <label>gravity</label>
+                </div>
+                <div>
+                    <input type="radio" name="q8" value="d">
+                    <label>numbers</label>
+                </div>
+            </fieldset>
+            <button id="submit">Submit</button>
+        </form>
+        <div id="results">
+            <p>Correct Answers: <span id="correct">0</span></p>
+            <p>Wrong Answers: <span id="wrong">0</span></p>
+            <p>Unanswered: <span id="unanswered">0</span></p>
+        </div>
     </div>
     <script src="assets/javascript/app.js"></script>
 </body>
