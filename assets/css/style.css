@@ -9,7 +9,6 @@ body {
     color: #393D3F;
     border: 5px solid #A85751;
     border-radius: 5px;
-    
     padding-bottom: 50px;
 }
 
@@ -35,4 +34,21 @@ button {
 #questions,
 #results {
     display: none;
+}
+
+.time {
+    text-align: center;
+    font-size: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+.results {
+    text-align: center;
+}
+
+.how {
+    font-size: 30px;
 }
